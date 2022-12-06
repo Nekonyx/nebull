@@ -1,0 +1,22 @@
+{
+  "name": "nebull",
+  "license": "WTFPL",
+  "author": "Nekonyx <nekonyx@proton.me>",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "bullmq": "^3.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
